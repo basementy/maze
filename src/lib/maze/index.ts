@@ -40,7 +40,7 @@ const getNeighbors = (position: { x: number; y: number }, maze: string[][]) => {
   return neighbors;
 };
 
-export const getMazePathUsingBreathFirstSearch = (maze: string[][], startSymbol: string, endSymbol: string) => {
+export const getMazePathUsingBreadthFirstSearch = (maze: string[][], startSymbol: string, endSymbol: string) => {
   const start = findStart(maze, startSymbol);
   const end = findEnd(maze, endSymbol);
 

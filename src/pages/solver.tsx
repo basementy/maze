@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { useEffect, useMemo, useState } from 'react';
 
-import { getMazePathUsingBreathFirstSearch } from '@/lib/maze';
+import { getMazePathUsingBreadthFirstSearch } from '@/lib/maze';
 
 import { Button, Flex, Text } from '@/components/ui';
 import {
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
   };
 
   const handleSolveMaze = () => {
-    const path = getMazePathUsingBreathFirstSearch(
+    const path = getMazePathUsingBreadthFirstSearch(
       getSplittedMaze,
       mazeConfiguration?.startSymbol,
       mazeConfiguration?.endSymbol
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
         <Flex direction="column" css={{ width: '100%', padding: '$md' }}>
           <Text css={{ color: '$gray200' }}>Maze solver</Text>
           <Text size="sm" css={{ color: '$gray500' }}>
-            Breath First Search Algorithm
+            Breadth First Search Algorithm
           </Text>
         </Flex>
         <Flex
