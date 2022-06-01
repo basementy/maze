@@ -2,7 +2,7 @@
 
 Esse é um projeto que utiliza BFS para resolver um labirinto e um jogo de Wumpus World. Utilizamos um Front-end para visualizar o labirinto e o resultado, permitindo também o usuário customizar o mesmo e definir diferentes valores para os simbolos que existem.
 
-Você pode acessar o Front-end do projeto [aqui](https://puzzlesolver.vercel.app).
+Você pode acessar o Front-end do projeto [aqui](https://mazesolver.vercel.app).
 
 ### Algoritmo - Maze
 
