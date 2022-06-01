@@ -23,4 +23,4 @@ O algoritmo pode ser encontrado dentro de [`./src/lib/maze`](https://github.com/
 
 O puzzle de Wumpus World utiliza de métodos que são responsáveis por controlar o agente por um labirinto. Sempre que o agente se move, é verificado se existe um Wumpus ou um poço na nova posição. Se existir, o agente é morto. Se não existir, o agente continua a percorrer o labirinto. O agente também é responsável por verificar se o agente está na posição de um tesouro, e se estiver, o agente ganha um score.
 
-A imprementação pode ser encontrado dentro de `./src/lib/wumpus`, com os seguintes métodos:
+A imprementação pode ser encontrado dentro de [`./src/lib/wumpus`](https://github.com/gabsdotco/maze/blob/main/src/lib/wumpus/index.ts), com os seguintes métodos:
